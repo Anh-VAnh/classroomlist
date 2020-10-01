@@ -1,4 +1,4 @@
-# Tao danh sach lop hoc
+# Tạo danh sách lớp học
 
 Viết code python tạo các công cụ để nhập thông tin của một lớp học điển hình của Trường ĐHKHTN, từ đó tạo file pdf theo đúng mẫu bảng điểm của Trường và lưu file này lên Google Drive
 
