@@ -11,4 +11,4 @@ Các kỹ năng, kỹ thuật trong dự án này là:
 * ...
 
 *2020/10/01*
-Dùng Python để tạo .tex và .pdf
+* Dùng Python để tạo .tex và .pdf
