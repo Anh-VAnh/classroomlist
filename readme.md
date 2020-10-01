@@ -10,3 +10,5 @@ Các kỹ năng, kỹ thuật trong dự án này là:
 * tìm lỗi chương trình, viết chương trình tới đâu đúng tới đó
 * ...
 
+*2020/10/01*
+Dùng Python để tạo .tex và .pdf
