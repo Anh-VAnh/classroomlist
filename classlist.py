@@ -17,9 +17,9 @@ program = line.split(',')
     student_date_of_birth = student_date of birt.strip()
     student_training_program = student_training_program.strip()
     datafile.close()
-    pass
+    return
 
-script, semester, academic_year = sys.argv
+script = sys.argv
 textfilename = "newclasslist.tex"
 fout = open(textfilename,"w")
 content = r"""\documentclass[12pt,a4paper]{book}
@@ -60,47 +60,7 @@ Thứ: 4\tab[9.1cm]Tiết: 9 - 11\tab[3.45cm]Giảng đường: 201T5\\
 		\hline
 		stt1 & mssv1 & name1 & birth1 & class1 & often1 & sign1 & mid1 & note1\\
 		\hline
-		stt1 & mssv1 & name1 & birth1 & class1 & often1 & sign1 & mid1 & note1\\
-		\hline
-		stt1 & mssv1 & name1 & birth1 & class1 & often1 & sign1 & mid1 & note1\\
-		\hline
-		stt1 & mssv1 & name1 & birth1 & class1 & often1 & sign1 & mid1 & note1\\
-		\hline
-		stt1 & mssv1 & name1 & birth1 & class1 & often1 & sign1 & mid1 & note1\\
-		\hline
-		stt1 & mssv1 & name1 & birth1 & class1 & often1 & sign1 & mid1 & note1\\
-		\hline
-		stt1 & mssv1 & name1 & birth1 & class1 & often1 & sign1 & mid1 & note1\\
-		\hline
-		stt1 & mssv1 & name1 & birth1 & class1 & often1 & sign1 & mid1 & note1\\
-		\hline
-		stt1 & mssv1 & name1 & birth1 & class1 & often1 & sign1 & mid1 & note1\\
-		\hline
-		stt1 & mssv1 & name1 & birth1 & class1 & often1 & sign1 & mid1 & note1\\
-		\hline
-		stt1 & mssv1 & name1 & birth1 & class1 & often1 & sign1 & mid1 & note1\\
-		\hline
-		stt1 & mssv1 & name1 & birth1 & class1 & often1 & sign1 & mid1 & note1\\
-		\hline
-		stt1 & mssv1 & name1 & birth1 & class1 & often1 & sign1 & mid1 & note1\\
-		\hline
-		stt1 & mssv1 & name1 & birth1 & class1 & often1 & sign1 & mid1 & note1\\
-		\hline
-		stt1 & mssv1 & name1 & birth1 & class1 & often1 & sign1 & mid1 & note1\\
-		\hline
-		stt1 & mssv1 & name1 & birth1 & class1 & often1 & sign1 & mid1 & note1\\
-		\hline
-		stt1 & mssv1 & name1 & birth1 & class1 & often1 & sign1 & mid1 & note1\\
-		\hline
-		stt1 & mssv1 & name1 & birth1 & class1 & often1 & sign1 & mid1 & note1\\
-		\hline
-		stt1 & mssv1 & name1 & birth1 & class1 & often1 & sign1 & mid1 & note1\\
-		\hline
-		stt1 & mssv1 & name1 & birth1 & class1 & often1 & sign1 & mid1 & note1\\
-		\hline
-		stt1 & mssv1 & name1 & birth1 & class1 & often1 & sign1 & mid1 & note1\\
-		\hline
-		stt1 & mssv1 & name1 & birth1 & class1 & often1 & sign1 & mid1 & note1\\
+		stt1 & mssv1 & name1 & birth1 & class1 & often1 & sign1 & mid1 &
 		\hline
 		stt1 & mssv1 & name1 & birth1 & class1 & often1 & sign1 & mid1 & note1\\
 		\hline
