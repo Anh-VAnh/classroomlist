@@ -9,17 +9,16 @@ def import_student_data(filename):
     lines = datafile.readlines()
     for line in lines:
         print(line)
-        student_id, student_name, student_date_of_birtj, student_training_program
-        
+#        student_id, student_name, student_date_of_birth, student_training_program       
 #    print(lines)
-program = line.split(',')
-    student_name = student_name.strip()
-    student_date_of_birth = student_date of birt.strip()
-    student_training_program = student_training_program.strip()
+#        program = line.split(',')
+#        student_name = student_name.strip()
+#        student_date_of_birth = student_date_of_birth.strip()
+#        student_training_program = student_training_program.strip()
     datafile.close()
     return
 
-script = sys.argv
+script, semester, academic_year = sys.argv
 textfilename = "newclasslist.tex"
 fout = open(textfilename,"w")
 content = r"""\documentclass[12pt,a4paper]{book}
@@ -60,7 +59,7 @@ Thứ: 4\tab[9.1cm]Tiết: 9 - 11\tab[3.45cm]Giảng đường: 201T5\\
 		\hline
 		stt1 & mssv1 & name1 & birth1 & class1 & often1 & sign1 & mid1 & note1\\
 		\hline
-		stt1 & mssv1 & name1 & birth1 & class1 & often1 & sign1 & mid1 &
+		stt1 & mssv1 & name1 & birth1 & class1 & often1 & sign1 & mid1 & note1\\
 		\hline
 		stt1 & mssv1 & name1 & birth1 & class1 & often1 & sign1 & mid1 & note1\\
 		\hline
